@@ -8,5 +8,3 @@ $q="DELETE FROM `employee` WHERE id= $id";
 mysqli_query($con,$q);
 
 header('location:display.php');
-
-?>
